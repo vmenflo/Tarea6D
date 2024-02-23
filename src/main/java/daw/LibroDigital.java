@@ -42,4 +42,9 @@ final public class LibroDigital extends Libro implements SeDescarga{
     public void descargar() {
          System.out.println("http://Victor.daw/"+this.hashCode());
     }
+
+    @Override
+    void queSoy() {
+        System.out.println("Soy un libro digital");
+    }
     }

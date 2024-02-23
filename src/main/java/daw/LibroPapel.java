@@ -40,5 +40,10 @@ final public class LibroPapel extends Libro implements SeEnvia {
     public void enviar(String direccion) {
         System.out.println("Se envia el articulo "+this.toString()+" a "+direccion);
     }
+
+    @Override
+    void queSoy() {
+        System.out.println("Soy un libro de papel");
+    }
     
 }

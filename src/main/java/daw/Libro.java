@@ -58,4 +58,7 @@ public abstract class Libro extends Producto implements Comparable<Libro>{
         return this.getISBN().compareToIgnoreCase(o.getISBN());
     }
     
+    //Método abstracto
+    abstract void queSoy();
+    
 }
